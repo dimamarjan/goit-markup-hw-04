@@ -2,6 +2,7 @@
   --primary-text-color: #000000;
   --navigation-text-color: #212121;
   --secondary-text-color: #757575;
+  --svg-color: #afb1b8;
   --accent-color: #2196f3;
   --accent-color-text: #ffffff;
   --section-bg-color: #f5f4fa;
@@ -374,7 +375,7 @@ body {
   align-items: center;
   width: 44px;
   height: 44px;
-  color: var(--secondary-text-color);
+  color: var(--svg-color);
 }
 
 .social-networks .item:not(:last-child) {
@@ -390,6 +391,52 @@ body {
 .social-networks .social-icon {
   width: 20px;
   height: 20px;
+  fill: currentColor;
+}
+
+/* clients section */
+.section .clients-title {
+  margin: 0;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--navigation-text-color);
+  margin-bottom: 50px;
+}
+
+.section .clients-logo {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-logo .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-logo .link {
+  color: var(--svg-color);
+  width: 170px;
+  height: 90px;
+  border: 1px solid var(--svg-color);
+  border-radius: 4px;
+}
+
+.clients-logo .link:hover {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+}
+
+.clients-logo .logo-icon {
+  width: 170px;
+  height: 90px;
   fill: currentColor;
 }
 
