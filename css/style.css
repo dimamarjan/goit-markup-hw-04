@@ -64,11 +64,13 @@ body {
   margin: 0px;
   padding: 0px;
   list-style: none;
+  display: inline-flex;
 }
 
 .navigation .nav-item {
   align-items: center;
   display: inline-flex;
+  padding: 25px 0;
 }
 
 .navigation .contact-nav {
@@ -82,31 +84,20 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding: 0;
 }
 
 .contact-nav .link {
   color: var(--secondary-text-color);
+  display: flex;
+  align-items: center;
 }
 
-.contact-nav .nav-item::before {
-  content: "";
-  height: 15px;
-  width: 15px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+.nav-item .nav-icon {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
   margin-right: 10px;
-}
-
-.contact-nav .nav-item.mail::before {
-  background-image: url("../images/envelope.svg");
-}
-
-.contact-nav .nav-item.phone::before {
-  background-image: url("../images/smartphone.svg");
 }
 
 .main-nav .link:hover,
