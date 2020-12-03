@@ -259,8 +259,12 @@ body {
 
 .skills .skill-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
+  background-color: var(--buttons-bg);
+  border-radius: 4px;
   margin-bottom: 30px;
 }
 
