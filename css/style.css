@@ -257,31 +257,11 @@ body {
   max-width: 270px;
 }
 
-.skills .skills-item::before {
-  content: "";
-  display: block;
+.skills .skill-icon {
+  display: flex;
+  width: 270px;
   height: 120px;
-  background-color: var(--buttons-bg);
-  border-radius: 4px;
-  background-repeat: no-repeat;
-  background-position: center;
   margin-bottom: 30px;
-}
-
-.skills .skills-item.first::before {
-  background-image: url("../images/antenna.svg");
-}
-
-.skills .skills-item.second::before {
-  background-image: url("../images/clock.svg");
-}
-
-.skills .skills-item.third::before {
-  background-image: url("../images/diagram.svg");
-}
-
-.skills .skills-item.forth::before {
-  background-image: url("../images/astronaut.svg");
 }
 
 .skills .section-title {
