@@ -51,6 +51,10 @@ body {
 }
 
 /* Navigation section */
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .navigation {
   margin: 0 auto;
   width: 1230px;
@@ -193,7 +197,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--accent-color-text);
 
-  /* padding-top: 200px; */
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -219,7 +222,6 @@ body {
 
 .hero {
   min-height: 600px;
-
   padding: 157px 0;
   display: flex;
   justify-content: center;
